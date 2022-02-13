@@ -7,7 +7,7 @@
 
 1. Чтобы получить ключ к TOKEN вам нужно зайти на сайт [Bitly.com](https://bitly.com/) и зарегистрироваться.
 2. Желательно ключ положить в секретный файл '.env'
-3. Если вы первый раз работаете с [Bitly.com](https://bitly.com/), то примерно так должен выглядит сам TOKEN: 'd213sdfdsfhj324hghj3g42ghnfkjhgf6dfg6fd5g'
+3. Если вы первый раз работаете с [Bitly.com](https://bitly.com/), то примерно так должен выглядит сам TOKEN: `d213sdfdsfhj324hghj3g42ghnfkjhgf6dfg6fd5g`
 
 ### Примечания
 
