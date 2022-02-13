@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
-from pathlib import Path
-from urllib.parse import urlparse
-import argparse
 import os
+import argparse
+from dotenv import load_dotenv
 import requests
+from urllib.parse import urlparse
+from pathlib import Path
 
 
 def shorten_link(url, headers):
@@ -43,12 +43,10 @@ def is_bitlink(link, headers):
 def main():
     load_dotenv()
 
-    load_dotenv(verbose=True)
-
     env_path = Path('.') / '.env'
     load_dotenv(dotenv_path=env_path)
 
-    secret = os.environ['TOKEN']
+    secret = os.environ['API']
 
     headers = {
         'Authorization': secret
