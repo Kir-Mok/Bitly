@@ -1,9 +1,9 @@
-import os
 import argparse
-from dotenv import load_dotenv
+import os
 import requests
-from urllib.parse import urlparse
 from pathlib import Path
+from dotenv import load_dotenv
+from urllib.parse import urlparse
 
 
 def shorten_link(url, headers):
