@@ -46,7 +46,7 @@ def main():
     env_path = Path('.') / '.env'
     load_dotenv(dotenv_path=env_path)
 
-    secret = os.environ['API']
+    secret = os.environ['BITLY_TOKEN']
 
     headers = {
         'Authorization': secret
