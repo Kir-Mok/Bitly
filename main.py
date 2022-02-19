@@ -43,9 +43,6 @@ def is_bitlink(link, headers):
 def main():
     load_dotenv()
 
-    env_path = Path('.') / '.env'
-    load_dotenv(dotenv_path=env_path)
-
     secret = os.environ['BITLY_TOKEN']
 
     headers = {
