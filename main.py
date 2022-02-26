@@ -1,7 +1,8 @@
 import argparse
 import os
+
 import requests
-from pathlib import Path
+
 from dotenv import load_dotenv
 from urllib.parse import urlparse
 
